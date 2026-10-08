@@ -3,6 +3,7 @@ import streamlit as st
 from ultralytics import YOLO
 from PIL import Image
 import os
+import tempfile
 
 st.set_page_config(
     page_title="AI Fire Smoke Detection",
