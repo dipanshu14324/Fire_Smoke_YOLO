@@ -39,10 +39,14 @@ if uploaded_file:
 
 
     # Save image
-    path = "/content/test.jpg"
+    import tempfile
 
-    with open(path, "wb") as f:
-        f.write(uploaded_file.getbuffer())
+    with tempfile.NamedTemporaryFile(
+        delete=False,
+        suffix=".jpg"
+    ) as tmp:
+        tmp.write(uploaded_file.getbuffer())
+        path = tmp.name
 
 
     st.write("File exists:", os.path.exists(path))
