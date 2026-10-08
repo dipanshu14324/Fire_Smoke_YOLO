@@ -11,7 +11,7 @@ st.set_page_config(
 
 st.title("🔥 AI Fire & Smoke Detection System")
 
-MODEL_PATH = "/content/drive/MyDrive/YOLO_Object_Detection/models/Fire_Smoke_YOLOv11_Final_Fixed/weights/best.pt"
+MODEL_PATH = "best.pt"
 
 
 @st.cache_resource
