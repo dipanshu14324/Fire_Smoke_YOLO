@@ -20,3 +20,18 @@ YOLOv11 based Fire and Smoke Detection System with Streamlit Dashboard.
 - Streamlit
 
 ## 📂 Project Structure
+
+
+## 🌐 Live Demo
+
+🚀 Streamlit App:
+https://firesmokeyolo.streamlit.app/
+
+## 📸 Demo
+
+Upload an image and the model detects:
+- 🔥 Fire
+- 🌫 Smoke
+- 🎯 Bounding boxes
+- 📊 Confidence score
+
